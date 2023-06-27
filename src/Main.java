@@ -10,5 +10,7 @@ public class Main {
         // exibindo o resultado do voo
         System.out.println(resultado);
 
+        Balao b2 = new Balao(2, "oi","azul","quadrado", 63.00, 10.00,"forte", 4);
+
     }
 }
