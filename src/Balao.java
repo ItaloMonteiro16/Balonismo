@@ -10,7 +10,8 @@ public class Balao {
     private String porte;
     private int capacidadePessoa;
 
-    public Balao(){}
+    public Balao() {
+    }
 
     public Balao(int id, String registro, String cor, String tipo, double altura, double peso, String porte, int capacidadePessoa) {
         this.id = id;
@@ -87,8 +88,4 @@ public class Balao {
         this.capacidadePessoa = capacidadePessoa;
     }
 
-    // metodos
-    public String voar(combustivel gasPropano) {
-        return "voando com " + gasPropano;
     }
-}

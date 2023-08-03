@@ -4,13 +4,11 @@ public class Main {
         // construindo balões
         Balao b1 = new Balao();
 
-        // chamando o método voar()
-        String resultado = b1.voar(new combustivel());
+        Balao b2 = new Balao(2, "público","azul","quadrado", 3.00, 60.00,"grande", 4);
+        Balao b3 = new Balao(3, "particular","verde","triângulo",2.32,62.25,"médio",5);
 
-        // exibindo o resultado do voo
-        System.out.println(resultado);
-
-        Balao b2 = new Balao(2, "oi","azul","quadrado", 63.00, 10.00,"forte", 4);
-
+        // construindo pessoas
+        Pessoa p1 = new Pessoa("italo",569058,427610,11951583648f,11964823157f,"rua jaci");
+        Pessoa p2 = new Pessoa("monteiro",208437,704138,11919753412f,11924963276f,"rua dalva");
     }
 }
