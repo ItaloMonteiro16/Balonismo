@@ -10,5 +10,9 @@ public class Main {
         // construindo pessoas
         Pessoa p1 = new Pessoa("italo",569058,427610,11951583648f,11964823157f,"rua jaci");
         Pessoa p2 = new Pessoa("monteiro",208437,704138,11919753412f,11924963276f,"rua dalva");
+
+        // construindo pilotos
+        Piloto pi1 = new Piloto("jublisqueitison", 248187, 3972);
+        Piloto pi2 = new Piloto("aline", 704268, 6104);
     }
 }
